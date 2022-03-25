@@ -286,6 +286,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    text-align: center;
   }
   
   .main__content {
