@@ -309,6 +309,21 @@
     text-align: center;
   }
   
+  .main__content pre {
+    font-size: 1rem;
+    background: rgb(45,47,53);
+    background: linear-gradient(356deg, rgba(45,47,53,0.8679336376404494) 0%, rgba(40,43,50,1) 100%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: rgb(45,47,53);
+    background: linear-gradient(356deg, rgba(45,47,53,0.8679336376404494) 0%, rgba(40,43,50,1) 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+  }
   .main__content h2 {
     font-size: 2.5rem;
     background: rgb(45,47,53);
@@ -426,11 +441,16 @@
       text-align: center;
       margin-bottom: 4rem;
     }
+      
+    
   
     .main__content h1 {
       font-size: 2.5rem;
       margin-top: 2rem;
     }
+      
+    .main_ciontent pre {
+      font-size: 1rem;
   
     .main__content h2 {
       font-size: 3rem;
