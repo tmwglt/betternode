@@ -310,7 +310,7 @@
   }
   
   .main__content pre {
-    font-size: 1rem;
+    font-size: .8rem;
     background: rgb(45,47,53);
     background: linear-gradient(356deg, rgba(45,47,53,0.8679336376404494) 0%, rgba(40,43,50,1) 100%);
     /* Chrome 10-25, Safari 5.1-6 */
