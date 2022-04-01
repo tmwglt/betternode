@@ -380,7 +380,8 @@
   }
   
   .main__img--card {
-
+    width: 100%;
+    height: auto;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -417,8 +418,8 @@
     }
   
     .main__img--card {
-      height: 425px;
-      width: 425px;
+    width: 100%;
+    height: auto;
     }
   
     .main__content {
